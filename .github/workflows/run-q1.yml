@@ -15,5 +15,6 @@ jobs:
 
     - name: Run shell script
       run: |
-        chmod +x ./script.sh
-        ./script.sh
+        chmod +x ./q1_draft.sh
+        q1_draft.sh
+        
