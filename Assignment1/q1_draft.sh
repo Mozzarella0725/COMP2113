@@ -19,7 +19,7 @@ do
 fi
 if [ "$x%10" == 0]
 then
-  
-      
-      
-      
+  echo "The number $n is valid."
+else
+  echo "The number $n is invalid."
+fi
