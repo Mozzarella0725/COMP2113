@@ -1,0 +1,22 @@
+name: Run q1_draft.sh
+
+on:
+  push:
+    branches:
+      - main  # Change this to the branch where your script is located, if it's not 'main'
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest  # GitHub will run the script on an Ubuntu machine
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3  # This checks out the repository so the script is available
+
+    - name: Run q1_draft.sh
+      run: |
+        chmod +x ./q1_draft.sh  # Make the script executable
+        ./q1_draft.sh           # Execute the shell script
