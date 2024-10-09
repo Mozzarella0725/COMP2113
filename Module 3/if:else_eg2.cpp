@@ -8,8 +8,7 @@ int main(){
         max = a;
     else 
         max = b;
-    if (max > c)
-    else
+    if (c > max)
         max = c;
     cout << max << endl;
     return 0;
