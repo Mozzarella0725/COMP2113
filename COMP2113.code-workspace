@@ -4,5 +4,13 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.associations": {
+			"*.rmd": "markdown",
+			"iostream": "cpp",
+			"ratio": "c",
+			"ostream": "cpp",
+			"vector": "cpp"
+		}
+	}
 }
