@@ -10,7 +10,9 @@
 			"iostream": "cpp",
 			"ratio": "c",
 			"ostream": "cpp",
-			"vector": "cpp"
+			"vector": "cpp",
+			"string": "cpp",
+			"iosfwd": "cpp"
 		}
 	}
 }
